@@ -19,6 +19,4 @@ for i in range(n):
 		node = next_node
 	act = [item for next_action in act for item in next_action]
 	action.append(act)
-    #if tree._simulate(node) == 0: #true positive and negative
-    #	break
 
