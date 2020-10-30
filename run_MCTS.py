@@ -4,6 +4,7 @@ from tree import Tree
 action = []
 n = 100
 for i in range(n):
+	print(i)
 	act = []
 	#start with a patient with zero features
 	tp = (-1,)*15
@@ -18,4 +19,6 @@ for i in range(n):
 		node = next_node
 	act = [item for next_action in act for item in next_action]
 	action.append(act)
+    #if tree._simulate(node) == 0: #true positive and negative
+    #	break
 
