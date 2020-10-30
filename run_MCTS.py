@@ -4,7 +4,6 @@ from tree import Tree
 action = []
 n = 100
 for i in range(n):
-	print(i)
 	act = []
 	#start with a patient with zero features
 	tp = (-1,)*15
